@@ -1,0 +1,288 @@
+.add{
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 150px;
+    border: 0;
+    border-radius: 12px;
+    background-color: rgb(50, 205, 197);
+}
+.add:hover{
+    background-color: teal;
+}
+
+.anim{
+
+    width:170px;
+    height: 330px;
+}
+.anim > p{
+    color:white;
+}
+
+
+
+body{
+    background-color: rgb(26, 24, 24);
+}
+
+.caards{
+    margin-left: 20px;
+    align-content: center;
+    display: flex;
+    max-width: 1000px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.center{
+    margin-left: 400px;
+    color: white;
+}
+
+.clkk{
+    cursor: pointer;
+}
+
+.details{
+    border: 0;
+    margin-left: 10px;
+    margin-top: 40px;
+    width: 150px;
+    border-radius: 12px;
+    background-color: rgb(38, 56, 211);
+}
+.details:hover{
+    background-color: rgb(38, 7, 173);
+}
+
+.flip-card-inner{
+    margin-left: 20px;
+    transition: 0.6s;
+    transform-style: preserve-3d;
+}
+
+.flip-card-back,.flip-card-front{
+    width: 180px;
+    height: 340px;
+}
+
+.flip-card-back{
+    display: none;
+    transform: rotateY(180deg);
+}
+.flip-card-data> h2{
+    color: white;
+}
+.flip-card-data> p{
+    color: white;
+    font-size: x-small;
+    height: 3px;
+}
+
+.flip-card:hover .flip-card-inner{
+    transform: rotateY(180deg);
+}
+
+.flip-card:hover .flip-card-front{
+    display: none;
+}
+
+.flip-card:hover .flip-card-back{
+    display: block;
+}
+.flip-card:hover .flip-card-data{
+    display: block;
+}
+
+.flip-card-data{
+    width: 170px;
+    height: 250px;
+    background-color: rgb(0, 0, 0);
+}
+
+.footer{
+    background-color: rgb(0, 0, 0);
+}
+
+#heading{
+    color: white;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+#image1{
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.imgdata{
+    height:230px;
+    width:170px;
+    margin-top: 10px;
+    border-radius: 5%;
+}
+  
+.info{
+    margin-top: 60px;
+    width: 300px;
+}
+
+#inputSearch{
+    outline: 0;
+    border-width: 0 0 2px;
+    background-color: rgb(14, 13, 13);
+    border-color: blue;
+    color:white;
+    
+}
+
+@media only screen and (min-width: 992px) {
+    .left{
+        margin-left: 250px;
+    }  
+}
+@media only screen and (max-width: 700px) {
+    #block{
+        height: 800px;
+        
+    }  
+    #miniBlock{
+        
+        height: 550px;
+        float: left;
+        
+    }
+    .info{
+        margin-top: 100px;
+    }
+}
+@media only screen and (min-width: 700px) {
+    #block{
+        height: 500px;
+    width: 1000px;
+    align-content: center;
+    max-width: 1000px;  
+    align-items: center;
+        
+    }  
+    #miniBlock{
+        
+        float: right;
+    margin-right: 50px;
+    width: 600px;
+    height: 500px;
+    max-width: 1000px;
+        
+    }
+    
+}
+@media only screen and (max-width: 700px) {
+    #inputSearch{
+        width: 200px;
+    } 
+}
+
+.large{
+    font-size: xx-large;
+}
+
+.login{
+    height: 69.5vh;
+}
+
+.navbar{
+    background-color: rgb(14, 13, 13);
+}
+
+
+
+.movie{
+
+    width:170px;
+    height: 330px;
+}
+.movie > p{
+    color:white;
+}
+
+.mylist{
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.mylist >div{
+  margin-right: 20px;
+}
+
+.navbar-brand{
+    color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+#posts{
+    margin-top: 50px;
+}
+
+.rating{
+    color: blue;
+}
+
+.right{
+    float: right;
+    margin-right: 50px;
+}
+
+#search{
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#showData{
+    min-height: 300px;
+}
+
+#showData >p{
+    color: white;
+}
+
+.showtime{
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+.showtimee{
+    color: rgb(52, 88, 252);
+    text-shadow: 1px 1px 2px rgb(15, 64, 156), 0 0 25px rgb(58, 3, 255), 0 0 5px rgb(12, 12, 248);
+}
+
+.text{
+    color:white;
+}
+.text2{
+    color:rgb(0, 217, 255);
+}
+.text3{
+    color: rgb(43, 141, 24);
+}
+.text4{
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
+
+.title{
+    height: 50px;
+    margin-top: 20px;
+    color:white;
+}
+
+.tv{
+
+width:170px;
+height: 330px;
+}
+.tv > p{
+    color:white;
+}
+
+
